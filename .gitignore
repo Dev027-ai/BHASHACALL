@@ -1,0 +1,29 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+dist/
+.DS_Store
+
+# BhashaCall local runtime data
+backend/.env
+backend/.venv/
+backend/bhashacall.db
+backend/storage/
+
+# Protect environment files in all project folders
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local databases and generated files
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+
+# Local debugging backups
+**/*.bak-*
+**/*.before-*
+**/*-backup*
